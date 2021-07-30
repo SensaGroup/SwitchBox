@@ -1,0 +1,1178 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 1
+Title "SwitchBox"
+Date "2021-07-29"
+Rev "V0.1"
+Comp "SENSA GROUP"
+Comment1 "Electronics for the switch box on the HPK station. "
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6103FB82
+P 4990 2640
+F 0 "J?" V 5052 2684 50  0000 L CNN
+F 1 "NO" V 5143 2684 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 4990 2640 50  0001 C CNN
+F 3 "~" H 4990 2640 50  0001 C CNN
+	1    4990 2640
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610422BA
+P 6170 3180
+F 0 "J?" V 6324 3092 50  0000 R CNN
+F 1 "COM" V 6233 3092 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 6170 3180 50  0001 C CNN
+F 3 "~" H 6170 3180 50  0001 C CNN
+	1    6170 3180
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610427CE
+P 6170 2640
+F 0 "J?" V 6232 2684 50  0000 L CNN
+F 1 "NC" V 6323 2684 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 6170 2640 50  0001 C CNN
+F 3 "~" H 6170 2640 50  0001 C CNN
+	1    6170 2640
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610430A3
+P 3230 980
+F 0 "J?" V 3292 1024 50  0000 L CNN
+F 1 "+" V 3383 1024 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 3230 980 50  0001 C CNN
+F 3 "~" H 3230 980 50  0001 C CNN
+	1    3230 980 
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104372A
+P 3580 980
+F 0 "J?" V 3642 1024 50  0000 L CNN
+F 1 "+" V 3733 1024 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 3580 980 50  0001 C CNN
+F 3 "~" H 3580 980 50  0001 C CNN
+	1    3580 980 
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61044B3E
+P 3890 980
+F 0 "J?" V 3952 1024 50  0000 L CNN
+F 1 "+" V 4043 1024 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 3890 980 50  0001 C CNN
+F 3 "~" H 3890 980 50  0001 C CNN
+	1    3890 980 
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61044B44
+P 4240 980
+F 0 "J?" V 4302 1024 50  0000 L CNN
+F 1 "+" V 4393 1024 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 4240 980 50  0001 C CNN
+F 3 "~" H 4240 980 50  0001 C CNN
+	1    4240 980 
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61045030
+P 4570 980
+F 0 "J?" V 4632 1024 50  0000 L CNN
+F 1 "+" V 4723 1024 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 4570 980 50  0001 C CNN
+F 3 "~" H 4570 980 50  0001 C CNN
+	1    4570 980 
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61045036
+P 4920 980
+F 0 "J?" V 4982 1024 50  0000 L CNN
+F 1 "+" V 5073 1024 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 4920 980 50  0001 C CNN
+F 3 "~" H 4920 980 50  0001 C CNN
+	1    4920 980 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3230 1260 3230 1180
+Wire Wire Line
+	3580 1180 3580 1260
+Connection ~ 3580 1260
+Wire Wire Line
+	3580 1260 3230 1260
+Wire Wire Line
+	3890 1180 3890 1260
+Connection ~ 3890 1260
+Wire Wire Line
+	3890 1260 3580 1260
+Wire Wire Line
+	4240 1180 4240 1260
+Connection ~ 4240 1260
+Wire Wire Line
+	4570 1180 4570 1260
+Connection ~ 4570 1260
+Wire Wire Line
+	4570 1260 4240 1260
+Wire Wire Line
+	4920 1180 4920 1260
+Wire Wire Line
+	4920 1260 4570 1260
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104D309
+P 4800 9850
+F 0 "J?" V 4954 9762 50  0000 R CNN
+F 1 "-" V 4863 9762 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 4800 9850 50  0001 C CNN
+F 3 "~" H 4800 9850 50  0001 C CNN
+	1    4800 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 9570 4800 9650
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104E476
+P 5000 3160
+F 0 "J?" V 5154 3072 50  0000 R CNN
+F 1 "COM" V 5063 3072 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 5000 3160 50  0001 C CNN
+F 3 "~" H 5000 3160 50  0001 C CNN
+	1    5000 3160
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6170 3380 6170 3430
+Wire Wire Line
+	6170 3430 6300 3430
+Wire Wire Line
+	5000 3410 5000 3360
+Wire Wire Line
+	5000 3410 4870 3410
+Wire Wire Line
+	6170 2840 6170 2890
+Wire Wire Line
+	6170 2890 6300 2890
+Wire Wire Line
+	3250 3100 3100 3100
+$Comp
+L Device:R R?
+U 1 1 61057918
+P 5000 2350
+F 0 "R?" H 5070 2396 50  0000 L CNN
+F 1 "10K" H 5070 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4930 2350 50  0001 C CNN
+F 3 "~" H 5000 2350 50  0001 C CNN
+	1    5000 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3200 3800 3200
+Text Label 3800 3200 0    50   ~ 0
+PASS1_NO
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 61061198
+P 3450 3100
+F 0 "SW?" H 3450 3385 50  0000 C CNN
+F 1 "SW_SPDT" H 3450 3294 50  0000 C CNN
+F 2 "" H 3450 3100 50  0001 C CNN
+F 3 "~" H 3450 3100 50  0001 C CNN
+	1    3450 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3000 3800 3000
+Text Label 3800 3000 0    50   ~ 0
+PASS1_NC
+Text Label 3100 3100 2    50   ~ 0
+IN1*
+Text Label 4870 3410 2    50   ~ 0
+IN1
+Text Label 6300 3430 0    50   ~ 0
+IN1
+Text Label 6300 2890 0    50   ~ 0
+PASS1_NC
+Wire Wire Line
+	4990 2890 4990 2840
+Wire Wire Line
+	4990 2890 4860 2890
+Text Label 4860 2890 2    50   ~ 0
+PASS1_NO
+Text Label 4870 2600 2    50   ~ 0
+IN1
+Wire Wire Line
+	4870 2100 5000 2100
+Wire Wire Line
+	5000 2200 5000 2100
+Wire Wire Line
+	4870 2600 5000 2600
+Text Label 4870 2100 2    50   ~ 0
+PASS1_NO
+Wire Wire Line
+	5000 2500 5000 2600
+$Comp
+L Device:R R?
+U 1 1 610541C1
+P 6170 2350
+F 0 "R?" H 6240 2396 50  0000 L CNN
+F 1 "10K" H 6240 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6100 2350 50  0001 C CNN
+F 3 "~" H 6170 2350 50  0001 C CNN
+	1    6170 2350
+	1    0    0    -1  
+$EndComp
+Text Label 6040 2600 2    50   ~ 0
+IN1
+Wire Wire Line
+	6040 2100 6170 2100
+Wire Wire Line
+	6170 2200 6170 2100
+Wire Wire Line
+	6040 2600 6170 2600
+Wire Wire Line
+	6170 2500 6170 2600
+Text Label 6040 2100 2    50   ~ 0
+PASS1_NC
+$Comp
+L Transistor_FET:FDN340P Q?
+U 1 1 61057470
+P 2260 3000
+F 0 "Q?" V 2509 3000 50  0000 C CNN
+F 1 "P_MOS" V 2600 3000 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 2460 2925 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 2260 3000 50  0001 L CNN
+	1    2260 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 6105943A
+P 2010 2850
+F 0 "D?" V 2060 3020 50  0000 R CNN
+F 1 "D_Zener" V 1980 3240 50  0000 R CNN
+F 2 "" H 2010 2850 50  0001 C CNN
+F 3 "Diode_SMD:D_SOD-323" H 2010 2850 50  0001 C CNN
+	1    2010 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6105E723
+P 2260 2490
+F 0 "R?" H 2330 2536 50  0000 L CNN
+F 1 "100K" H 2330 2445 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2190 2490 50  0001 C CNN
+F 3 "~" H 2260 2490 50  0001 C CNN
+	1    2260 2490
+	1    0    0    -1  
+$EndComp
+Text Label 2610 3100 0    50   ~ 0
+IN1
+Wire Wire Line
+	2010 3000 2010 3100
+Wire Wire Line
+	1840 3100 2010 3100
+Wire Wire Line
+	2060 3100 2010 3100
+Connection ~ 2010 3100
+Wire Wire Line
+	2260 2640 2260 2680
+Wire Wire Line
+	2010 2700 2010 2680
+Wire Wire Line
+	2010 2680 2260 2680
+Connection ~ 2260 2680
+Wire Wire Line
+	2260 2680 2260 2800
+Wire Wire Line
+	2460 3100 2610 3100
+Text Label 1840 3100 2    50   ~ 0
+IN1*
+Wire Wire Line
+	2130 2240 2260 2240
+Text Label 2130 2240 2    50   ~ 0
+PASS1_NC
+Wire Wire Line
+	2260 2340 2260 2320
+Text Label 2130 2320 2    50   ~ 0
+PASS1_NC
+Wire Wire Line
+	2130 2320 2260 2320
+Connection ~ 2260 2320
+Wire Wire Line
+	2260 2320 2260 2240
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104D327
+P 3110 9850
+F 0 "J?" V 3264 9762 50  0000 R CNN
+F 1 "-" V 3173 9762 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 3110 9850 50  0001 C CNN
+F 3 "~" H 3110 9850 50  0001 C CNN
+	1    3110 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3110 9570 3460 9570
+Wire Wire Line
+	3110 9650 3110 9570
+Wire Wire Line
+	3460 9570 3790 9570
+Connection ~ 3460 9570
+Wire Wire Line
+	3460 9650 3460 9570
+Connection ~ 3790 9570
+Wire Wire Line
+	3790 9650 3790 9570
+Wire Wire Line
+	4140 9570 4450 9570
+Connection ~ 4140 9570
+Wire Wire Line
+	4140 9650 4140 9570
+Wire Wire Line
+	4450 9570 4800 9570
+Connection ~ 4450 9570
+Wire Wire Line
+	4450 9650 4450 9570
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104D321
+P 3460 9850
+F 0 "J?" V 3614 9762 50  0000 R CNN
+F 1 "-" V 3523 9762 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 3460 9850 50  0001 C CNN
+F 3 "~" H 3460 9850 50  0001 C CNN
+	1    3460 9850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104D31B
+P 3790 9850
+F 0 "J?" V 3944 9762 50  0000 R CNN
+F 1 "-" V 3853 9762 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 3790 9850 50  0001 C CNN
+F 3 "~" H 3790 9850 50  0001 C CNN
+	1    3790 9850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104D315
+P 4140 9850
+F 0 "J?" V 4294 9762 50  0000 R CNN
+F 1 "-" V 4203 9762 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 4140 9850 50  0001 C CNN
+F 3 "~" H 4140 9850 50  0001 C CNN
+	1    4140 9850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104D30F
+P 4450 9850
+F 0 "J?" V 4604 9762 50  0000 R CNN
+F 1 "-" V 4513 9762 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 4450 9850 50  0001 C CNN
+F 3 "~" H 4450 9850 50  0001 C CNN
+	1    4450 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3890 1260 4240 1260
+Wire Wire Line
+	3790 9570 4140 9570
+Wire Notes Line
+	7720 1750 530  1750
+Wire Notes Line
+	7730 3670 540  3670
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610B24F5
+P 5010 4430
+F 0 "J?" V 5072 4474 50  0000 L CNN
+F 1 "NO" V 5163 4474 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 5010 4430 50  0001 C CNN
+F 3 "~" H 5010 4430 50  0001 C CNN
+	1    5010 4430
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610B24FB
+P 6190 4970
+F 0 "J?" V 6344 4882 50  0000 R CNN
+F 1 "COM" V 6253 4882 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 6190 4970 50  0001 C CNN
+F 3 "~" H 6190 4970 50  0001 C CNN
+	1    6190 4970
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610B2501
+P 6190 4430
+F 0 "J?" V 6252 4474 50  0000 L CNN
+F 1 "NC" V 6343 4474 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 6190 4430 50  0001 C CNN
+F 3 "~" H 6190 4430 50  0001 C CNN
+	1    6190 4430
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610B2507
+P 5020 4950
+F 0 "J?" V 5174 4862 50  0000 R CNN
+F 1 "COM" V 5083 4862 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 5020 4950 50  0001 C CNN
+F 3 "~" H 5020 4950 50  0001 C CNN
+	1    5020 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6190 5170 6190 5220
+Wire Wire Line
+	6190 5220 6320 5220
+Wire Wire Line
+	5020 5200 5020 5150
+Wire Wire Line
+	5020 5200 4890 5200
+Wire Wire Line
+	6190 4630 6190 4680
+Wire Wire Line
+	6190 4680 6320 4680
+Wire Wire Line
+	3270 4890 3120 4890
+$Comp
+L Device:R R?
+U 1 1 610B2514
+P 5020 4140
+F 0 "R?" H 5090 4186 50  0000 L CNN
+F 1 "10K" H 5090 4095 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4950 4140 50  0001 C CNN
+F 3 "~" H 5020 4140 50  0001 C CNN
+	1    5020 4140
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3670 4990 3820 4990
+Text Label 3820 4990 0    50   ~ 0
+PASS2_NO
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 610B251C
+P 3470 4890
+F 0 "SW?" H 3470 5175 50  0000 C CNN
+F 1 "SW_SPDT" H 3470 5084 50  0000 C CNN
+F 2 "" H 3470 4890 50  0001 C CNN
+F 3 "~" H 3470 4890 50  0001 C CNN
+	1    3470 4890
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3670 4790 3820 4790
+Text Label 3820 4790 0    50   ~ 0
+PASS2_NC
+Text Label 3120 4890 2    50   ~ 0
+IN2*
+Text Label 4890 5200 2    50   ~ 0
+IN2
+Text Label 6320 5220 0    50   ~ 0
+IN2
+Text Label 6320 4680 0    50   ~ 0
+PASS2_NC
+Wire Wire Line
+	5010 4680 5010 4630
+Wire Wire Line
+	5010 4680 4880 4680
+Text Label 4880 4680 2    50   ~ 0
+PASS2_NO
+Text Label 4890 4390 2    50   ~ 0
+IN2
+Wire Wire Line
+	4890 3890 5020 3890
+Wire Wire Line
+	5020 3990 5020 3890
+Wire Wire Line
+	4890 4390 5020 4390
+Text Label 4890 3890 2    50   ~ 0
+PASS2_NO
+Wire Wire Line
+	5020 4290 5020 4390
+$Comp
+L Device:R R?
+U 1 1 610B2531
+P 6190 4140
+F 0 "R?" H 6260 4186 50  0000 L CNN
+F 1 "10K" H 6260 4095 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6120 4140 50  0001 C CNN
+F 3 "~" H 6190 4140 50  0001 C CNN
+	1    6190 4140
+	1    0    0    -1  
+$EndComp
+Text Label 6060 4390 2    50   ~ 0
+IN1
+Wire Wire Line
+	6060 3890 6190 3890
+Wire Wire Line
+	6190 3990 6190 3890
+Wire Wire Line
+	6060 4390 6190 4390
+Wire Wire Line
+	6190 4290 6190 4390
+Text Label 6060 3890 2    50   ~ 0
+PASS2_NC
+$Comp
+L Transistor_FET:FDN340P Q?
+U 1 1 610B253D
+P 2280 4790
+F 0 "Q?" V 2529 4790 50  0000 C CNN
+F 1 "P_MOS" V 2620 4790 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 2480 4715 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 2280 4790 50  0001 L CNN
+	1    2280 4790
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 610B2543
+P 2030 4640
+F 0 "D?" V 2080 4810 50  0000 R CNN
+F 1 "D_Zener" V 2000 5030 50  0000 R CNN
+F 2 "" H 2030 4640 50  0001 C CNN
+F 3 "Diode_SMD:D_SOD-323" H 2030 4640 50  0001 C CNN
+	1    2030 4640
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 610B2549
+P 2280 4280
+F 0 "R?" H 2350 4326 50  0000 L CNN
+F 1 "100K" H 2350 4235 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2210 4280 50  0001 C CNN
+F 3 "~" H 2280 4280 50  0001 C CNN
+	1    2280 4280
+	1    0    0    -1  
+$EndComp
+Text Label 2630 4890 0    50   ~ 0
+IN2
+Wire Wire Line
+	2030 4790 2030 4890
+Wire Wire Line
+	1860 4890 2030 4890
+Wire Wire Line
+	2080 4890 2030 4890
+Connection ~ 2030 4890
+Wire Wire Line
+	2280 4430 2280 4470
+Wire Wire Line
+	2030 4490 2030 4470
+Wire Wire Line
+	2030 4470 2280 4470
+Connection ~ 2280 4470
+Wire Wire Line
+	2280 4470 2280 4590
+Wire Wire Line
+	2480 4890 2630 4890
+Text Label 1860 4890 2    50   ~ 0
+IN2*
+Wire Wire Line
+	2150 4030 2280 4030
+Text Label 2150 4030 2    50   ~ 0
+PASS2_NC
+Wire Wire Line
+	2280 4130 2280 4110
+Text Label 2150 4110 2    50   ~ 0
+PASS2_NC
+Wire Wire Line
+	2150 4110 2280 4110
+Connection ~ 2280 4110
+Wire Wire Line
+	2280 4110 2280 4030
+Wire Notes Line
+	7750 5460 560  5460
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610BCB05
+P 5010 6220
+F 0 "J?" V 5072 6264 50  0000 L CNN
+F 1 "NO" V 5163 6264 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 5010 6220 50  0001 C CNN
+F 3 "~" H 5010 6220 50  0001 C CNN
+	1    5010 6220
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610BCB0B
+P 6190 6760
+F 0 "J?" V 6344 6672 50  0000 R CNN
+F 1 "COM" V 6253 6672 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 6190 6760 50  0001 C CNN
+F 3 "~" H 6190 6760 50  0001 C CNN
+	1    6190 6760
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610BCB11
+P 6190 6220
+F 0 "J?" V 6252 6264 50  0000 L CNN
+F 1 "NC" V 6343 6264 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 6190 6220 50  0001 C CNN
+F 3 "~" H 6190 6220 50  0001 C CNN
+	1    6190 6220
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610BCB17
+P 5020 6740
+F 0 "J?" V 5174 6652 50  0000 R CNN
+F 1 "COM" V 5083 6652 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 5020 6740 50  0001 C CNN
+F 3 "~" H 5020 6740 50  0001 C CNN
+	1    5020 6740
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6190 6960 6190 7010
+Wire Wire Line
+	6190 7010 6320 7010
+Wire Wire Line
+	5020 6990 5020 6940
+Wire Wire Line
+	5020 6990 4890 6990
+Wire Wire Line
+	6190 6420 6190 6470
+Wire Wire Line
+	6190 6470 6320 6470
+Wire Wire Line
+	3270 6680 3120 6680
+$Comp
+L Device:R R?
+U 1 1 610BCB24
+P 5020 5930
+F 0 "R?" H 5090 5976 50  0000 L CNN
+F 1 "10K" H 5090 5885 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4950 5930 50  0001 C CNN
+F 3 "~" H 5020 5930 50  0001 C CNN
+	1    5020 5930
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3670 6780 3820 6780
+Text Label 3820 6780 0    50   ~ 0
+PASS1_NO
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 610BCB2C
+P 3470 6680
+F 0 "SW?" H 3470 6965 50  0000 C CNN
+F 1 "SW_SPDT" H 3470 6874 50  0000 C CNN
+F 2 "" H 3470 6680 50  0001 C CNN
+F 3 "~" H 3470 6680 50  0001 C CNN
+	1    3470 6680
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3670 6580 3820 6580
+Text Label 3820 6580 0    50   ~ 0
+PASS1_NC
+Text Label 3120 6680 2    50   ~ 0
+IN1*
+Text Label 4890 6990 2    50   ~ 0
+IN1
+Text Label 6320 7010 0    50   ~ 0
+IN1
+Text Label 6320 6470 0    50   ~ 0
+PASS1_NC
+Wire Wire Line
+	5010 6470 5010 6420
+Wire Wire Line
+	5010 6470 4880 6470
+Text Label 4880 6470 2    50   ~ 0
+PASS1_NO
+Text Label 4890 6180 2    50   ~ 0
+IN1
+Wire Wire Line
+	4890 5680 5020 5680
+Wire Wire Line
+	5020 5780 5020 5680
+Wire Wire Line
+	4890 6180 5020 6180
+Text Label 4890 5680 2    50   ~ 0
+PASS1_NO
+Wire Wire Line
+	5020 6080 5020 6180
+$Comp
+L Device:R R?
+U 1 1 610BCB41
+P 6190 5930
+F 0 "R?" H 6260 5976 50  0000 L CNN
+F 1 "10K" H 6260 5885 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6120 5930 50  0001 C CNN
+F 3 "~" H 6190 5930 50  0001 C CNN
+	1    6190 5930
+	1    0    0    -1  
+$EndComp
+Text Label 6060 6180 2    50   ~ 0
+IN1
+Wire Wire Line
+	6060 5680 6190 5680
+Wire Wire Line
+	6190 5780 6190 5680
+Wire Wire Line
+	6060 6180 6190 6180
+Wire Wire Line
+	6190 6080 6190 6180
+Text Label 6060 5680 2    50   ~ 0
+PASS1_NC
+$Comp
+L Transistor_FET:FDN340P Q?
+U 1 1 610BCB4D
+P 2280 6580
+F 0 "Q?" V 2529 6580 50  0000 C CNN
+F 1 "P_MOS" V 2620 6580 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 2480 6505 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 2280 6580 50  0001 L CNN
+	1    2280 6580
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 610BCB53
+P 2030 6430
+F 0 "D?" V 2080 6600 50  0000 R CNN
+F 1 "D_Zener" V 2000 6820 50  0000 R CNN
+F 2 "" H 2030 6430 50  0001 C CNN
+F 3 "Diode_SMD:D_SOD-323" H 2030 6430 50  0001 C CNN
+	1    2030 6430
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 610BCB59
+P 2280 6070
+F 0 "R?" H 2350 6116 50  0000 L CNN
+F 1 "100K" H 2350 6025 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2210 6070 50  0001 C CNN
+F 3 "~" H 2280 6070 50  0001 C CNN
+	1    2280 6070
+	1    0    0    -1  
+$EndComp
+Text Label 2630 6680 0    50   ~ 0
+IN1
+Wire Wire Line
+	2030 6580 2030 6680
+Wire Wire Line
+	1860 6680 2030 6680
+Wire Wire Line
+	2080 6680 2030 6680
+Connection ~ 2030 6680
+Wire Wire Line
+	2280 6220 2280 6260
+Wire Wire Line
+	2030 6280 2030 6260
+Wire Wire Line
+	2030 6260 2280 6260
+Connection ~ 2280 6260
+Wire Wire Line
+	2280 6260 2280 6380
+Wire Wire Line
+	2480 6680 2630 6680
+Text Label 1860 6680 2    50   ~ 0
+IN1*
+Wire Wire Line
+	2150 5820 2280 5820
+Text Label 2150 5820 2    50   ~ 0
+PASS1_NC
+Wire Wire Line
+	2280 5920 2280 5900
+Text Label 2150 5900 2    50   ~ 0
+PASS1_NC
+Wire Wire Line
+	2150 5900 2280 5900
+Connection ~ 2280 5900
+Wire Wire Line
+	2280 5900 2280 5820
+Wire Notes Line
+	7750 7250 560  7250
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610C5C18
+P 5010 7980
+F 0 "J?" V 5072 8024 50  0000 L CNN
+F 1 "NO" V 5163 8024 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 5010 7980 50  0001 C CNN
+F 3 "~" H 5010 7980 50  0001 C CNN
+	1    5010 7980
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610C5C1E
+P 6190 8520
+F 0 "J?" V 6344 8432 50  0000 R CNN
+F 1 "COM" V 6253 8432 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 6190 8520 50  0001 C CNN
+F 3 "~" H 6190 8520 50  0001 C CNN
+	1    6190 8520
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610C5C24
+P 6190 7980
+F 0 "J?" V 6252 8024 50  0000 L CNN
+F 1 "NC" V 6343 8024 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 6190 7980 50  0001 C CNN
+F 3 "~" H 6190 7980 50  0001 C CNN
+	1    6190 7980
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610C5C2A
+P 5020 8500
+F 0 "J?" V 5174 8412 50  0000 R CNN
+F 1 "COM" V 5083 8412 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 5020 8500 50  0001 C CNN
+F 3 "~" H 5020 8500 50  0001 C CNN
+	1    5020 8500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6190 8720 6190 8770
+Wire Wire Line
+	6190 8770 6320 8770
+Wire Wire Line
+	5020 8750 5020 8700
+Wire Wire Line
+	5020 8750 4890 8750
+Wire Wire Line
+	6190 8180 6190 8230
+Wire Wire Line
+	6190 8230 6320 8230
+Wire Wire Line
+	3270 8440 3120 8440
+$Comp
+L Device:R R?
+U 1 1 610C5C37
+P 5020 7690
+F 0 "R?" H 5090 7736 50  0000 L CNN
+F 1 "10K" H 5090 7645 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4950 7690 50  0001 C CNN
+F 3 "~" H 5020 7690 50  0001 C CNN
+	1    5020 7690
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3670 8540 3820 8540
+Text Label 3820 8540 0    50   ~ 0
+PASS1_NO
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 610C5C3F
+P 3470 8440
+F 0 "SW?" H 3470 8725 50  0000 C CNN
+F 1 "SW_SPDT" H 3470 8634 50  0000 C CNN
+F 2 "" H 3470 8440 50  0001 C CNN
+F 3 "~" H 3470 8440 50  0001 C CNN
+	1    3470 8440
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3670 8340 3820 8340
+Text Label 3820 8340 0    50   ~ 0
+PASS1_NC
+Text Label 3120 8440 2    50   ~ 0
+IN1*
+Text Label 4890 8750 2    50   ~ 0
+IN1
+Text Label 6320 8770 0    50   ~ 0
+IN1
+Text Label 6320 8230 0    50   ~ 0
+PASS1_NC
+Wire Wire Line
+	5010 8230 5010 8180
+Wire Wire Line
+	5010 8230 4880 8230
+Text Label 4880 8230 2    50   ~ 0
+PASS1_NO
+Text Label 4890 7940 2    50   ~ 0
+IN1
+Wire Wire Line
+	4890 7440 5020 7440
+Wire Wire Line
+	5020 7540 5020 7440
+Wire Wire Line
+	4890 7940 5020 7940
+Text Label 4890 7440 2    50   ~ 0
+PASS1_NO
+Wire Wire Line
+	5020 7840 5020 7940
+$Comp
+L Device:R R?
+U 1 1 610C5C54
+P 6190 7690
+F 0 "R?" H 6260 7736 50  0000 L CNN
+F 1 "10K" H 6260 7645 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6120 7690 50  0001 C CNN
+F 3 "~" H 6190 7690 50  0001 C CNN
+	1    6190 7690
+	1    0    0    -1  
+$EndComp
+Text Label 6060 7940 2    50   ~ 0
+IN1
+Wire Wire Line
+	6060 7440 6190 7440
+Wire Wire Line
+	6190 7540 6190 7440
+Wire Wire Line
+	6060 7940 6190 7940
+Wire Wire Line
+	6190 7840 6190 7940
+Text Label 6060 7440 2    50   ~ 0
+PASS1_NC
+$Comp
+L Transistor_FET:FDN340P Q?
+U 1 1 610C5C60
+P 2280 8340
+F 0 "Q?" V 2529 8340 50  0000 C CNN
+F 1 "P_MOS" V 2620 8340 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 2480 8265 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 2280 8340 50  0001 L CNN
+	1    2280 8340
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 610C5C66
+P 2030 8190
+F 0 "D?" V 2080 8360 50  0000 R CNN
+F 1 "D_Zener" V 2000 8580 50  0000 R CNN
+F 2 "" H 2030 8190 50  0001 C CNN
+F 3 "Diode_SMD:D_SOD-323" H 2030 8190 50  0001 C CNN
+	1    2030 8190
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 610C5C6C
+P 2280 7830
+F 0 "R?" H 2350 7876 50  0000 L CNN
+F 1 "100K" H 2350 7785 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2210 7830 50  0001 C CNN
+F 3 "~" H 2280 7830 50  0001 C CNN
+	1    2280 7830
+	1    0    0    -1  
+$EndComp
+Text Label 2630 8440 0    50   ~ 0
+IN1
+Wire Wire Line
+	2030 8340 2030 8440
+Wire Wire Line
+	1860 8440 2030 8440
+Wire Wire Line
+	2080 8440 2030 8440
+Connection ~ 2030 8440
+Wire Wire Line
+	2280 7980 2280 8020
+Wire Wire Line
+	2030 8040 2030 8020
+Wire Wire Line
+	2030 8020 2280 8020
+Connection ~ 2280 8020
+Wire Wire Line
+	2280 8020 2280 8140
+Wire Wire Line
+	2480 8440 2630 8440
+Text Label 1860 8440 2    50   ~ 0
+IN1*
+Wire Wire Line
+	2150 7580 2280 7580
+Text Label 2150 7580 2    50   ~ 0
+PASS1_NC
+Wire Wire Line
+	2280 7680 2280 7660
+Text Label 2150 7660 2    50   ~ 0
+PASS1_NC
+Wire Wire Line
+	2150 7660 2280 7660
+Connection ~ 2280 7660
+Wire Wire Line
+	2280 7660 2280 7580
+Wire Notes Line
+	7750 9010 560  9010
+$Comp
+L Device:LED D?
+U 1 1 610CBF1B
+P 7220 2740
+F 0 "D?" V 7167 2820 50  0000 L CNN
+F 1 "LED" V 7258 2820 50  0000 L CNN
+F 2 "" H 7220 2740 50  0001 C CNN
+F 3 "~" H 7220 2740 50  0001 C CNN
+	1    7220 2740
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610CCFB6
+P 7220 2180
+F 0 "J?" V 7374 2092 50  0000 R CNN
+F 1 "X2" V 7283 2092 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 7220 2180 50  0001 C CNN
+F 3 "~" H 7220 2180 50  0001 C CNN
+	1    7220 2180
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610D3586
+P 7220 3260
+F 0 "J?" V 7374 3172 50  0000 R CNN
+F 1 "X1" V 7283 3172 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 7220 3260 50  0001 C CNN
+F 3 "~" H 7220 3260 50  0001 C CNN
+	1    7220 3260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7220 2380 7220 2590
+Wire Wire Line
+	7220 3060 7220 2890
+$Comp
+L Device:LED D?
+U 1 1 610EC82F
+P 7230 4590
+F 0 "D?" V 7177 4670 50  0000 L CNN
+F 1 "LED" V 7268 4670 50  0000 L CNN
+F 2 "" H 7230 4590 50  0001 C CNN
+F 3 "~" H 7230 4590 50  0001 C CNN
+	1    7230 4590
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610EC835
+P 7230 4030
+F 0 "J?" V 7384 3942 50  0000 R CNN
+F 1 "X2" V 7293 3942 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 7230 4030 50  0001 C CNN
+F 3 "~" H 7230 4030 50  0001 C CNN
+	1    7230 4030
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610EC83B
+P 7230 5110
+F 0 "J?" V 7384 5022 50  0000 R CNN
+F 1 "X1" V 7293 5022 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 7230 5110 50  0001 C CNN
+F 3 "~" H 7230 5110 50  0001 C CNN
+	1    7230 5110
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7230 4230 7230 4440
+Wire Wire Line
+	7230 4910 7230 4740
+$Comp
+L Device:LED D?
+U 1 1 610F3AA4
+P 7240 6380
+F 0 "D?" V 7187 6460 50  0000 L CNN
+F 1 "LED" V 7278 6460 50  0000 L CNN
+F 2 "" H 7240 6380 50  0001 C CNN
+F 3 "~" H 7240 6380 50  0001 C CNN
+	1    7240 6380
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610F3AAA
+P 7240 5820
+F 0 "J?" V 7394 5732 50  0000 R CNN
+F 1 "X2" V 7303 5732 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 7240 5820 50  0001 C CNN
+F 3 "~" H 7240 5820 50  0001 C CNN
+	1    7240 5820
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610F3AB0
+P 7240 6900
+F 0 "J?" V 7394 6812 50  0000 R CNN
+F 1 "X1" V 7303 6812 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 7240 6900 50  0001 C CNN
+F 3 "~" H 7240 6900 50  0001 C CNN
+	1    7240 6900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7240 6020 7240 6230
+Wire Wire Line
+	7240 6700 7240 6530
+$Comp
+L Device:LED D?
+U 1 1 610FAAB6
+P 7240 8180
+F 0 "D?" V 7187 8260 50  0000 L CNN
+F 1 "LED" V 7278 8260 50  0000 L CNN
+F 2 "" H 7240 8180 50  0001 C CNN
+F 3 "~" H 7240 8180 50  0001 C CNN
+	1    7240 8180
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610FAABC
+P 7240 7620
+F 0 "J?" V 7394 7532 50  0000 R CNN
+F 1 "X2" V 7303 7532 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 7240 7620 50  0001 C CNN
+F 3 "~" H 7240 7620 50  0001 C CNN
+	1    7240 7620
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610FAAC2
+P 7240 8700
+F 0 "J?" V 7394 8612 50  0000 R CNN
+F 1 "X1" V 7303 8612 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 7240 8700 50  0001 C CNN
+F 3 "~" H 7240 8700 50  0001 C CNN
+	1    7240 8700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7240 7820 7240 8030
+Wire Wire Line
+	7240 8500 7240 8330
+$EndSCHEMATC

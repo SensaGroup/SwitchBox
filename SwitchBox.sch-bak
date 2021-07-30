@@ -1,0 +1,341 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 1
+Title "SwitchBox"
+Date "2021-07-29"
+Rev "V0.1"
+Comp "SENSA GROUP"
+Comment1 "Electronics for the switch box on the HPK station. "
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 61030685
+P 2910 6190
+F 0 "SW?" H 2910 6475 50  0000 C CNN
+F 1 "SWITCH" H 2910 6384 50  0000 C CNN
+F 2 "" H 2910 6390 50  0001 C CNN
+F 3 "https://www.mgelectronic.rs/komandni-prekida%C4%8D-bd33" H 2910 6390 50  0001 C CNN
+	1    2910 6190
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 61032284
+P 2920 6620
+F 0 "SW?" H 2920 6905 50  0000 C CNN
+F 1 "SWITCH" H 2920 6814 50  0000 C CNN
+F 2 "" H 2920 6820 50  0001 C CNN
+F 3 "https://www.mgelectronic.rs/komandni-prekida%C4%8D-bd33" H 2920 6820 50  0001 C CNN
+	1    2920 6620
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 6103650E
+P 2890 5690
+F 0 "SW?" H 2890 5975 50  0000 C CNN
+F 1 "BUTTON" H 2890 5884 50  0000 C CNN
+F 2 "" H 2890 5890 50  0001 C CNN
+F 3 "https://www.mgelectronic.rs/komandni-taster-ba21-crni" H 2890 5890 50  0001 C CNN
+	1    2890 5690
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6103FB82
+P 4570 3470
+F 0 "J?" V 4632 3514 50  0000 L CNN
+F 1 "NO" V 4723 3514 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 4570 3470 50  0001 C CNN
+F 3 "~" H 4570 3470 50  0001 C CNN
+	1    4570 3470
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610422BA
+P 5200 4260
+F 0 "J?" V 5354 4172 50  0000 R CNN
+F 1 "COM" V 5263 4172 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 5200 4260 50  0001 C CNN
+F 3 "~" H 5200 4260 50  0001 C CNN
+	1    5200 4260
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610427CE
+P 5210 3460
+F 0 "J?" V 5272 3504 50  0000 L CNN
+F 1 "NC" V 5363 3504 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 5210 3460 50  0001 C CNN
+F 3 "~" H 5210 3460 50  0001 C CNN
+	1    5210 3460
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 610430A3
+P 2950 1630
+F 0 "J?" V 3012 1674 50  0000 L CNN
+F 1 "+" V 3103 1674 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 2950 1630 50  0001 C CNN
+F 3 "~" H 2950 1630 50  0001 C CNN
+	1    2950 1630
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104372A
+P 3300 1630
+F 0 "J?" V 3362 1674 50  0000 L CNN
+F 1 "+" V 3453 1674 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 3300 1630 50  0001 C CNN
+F 3 "~" H 3300 1630 50  0001 C CNN
+	1    3300 1630
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61044B3E
+P 3610 1630
+F 0 "J?" V 3672 1674 50  0000 L CNN
+F 1 "+" V 3763 1674 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 3610 1630 50  0001 C CNN
+F 3 "~" H 3610 1630 50  0001 C CNN
+	1    3610 1630
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61044B44
+P 3960 1630
+F 0 "J?" V 4022 1674 50  0000 L CNN
+F 1 "+" V 4113 1674 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 3960 1630 50  0001 C CNN
+F 3 "~" H 3960 1630 50  0001 C CNN
+	1    3960 1630
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61045030
+P 4290 1630
+F 0 "J?" V 4352 1674 50  0000 L CNN
+F 1 "+" V 4443 1674 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 4290 1630 50  0001 C CNN
+F 3 "~" H 4290 1630 50  0001 C CNN
+	1    4290 1630
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 61045036
+P 4640 1630
+F 0 "J?" V 4702 1674 50  0000 L CNN
+F 1 "+" V 4793 1674 50  0000 L CNN
+F 2 "Connector:Banana_Jack_1Pin" H 4640 1630 50  0001 C CNN
+F 3 "~" H 4640 1630 50  0001 C CNN
+	1    4640 1630
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 1910 2950 1830
+Wire Wire Line
+	3300 1830 3300 1910
+Connection ~ 3300 1910
+Wire Wire Line
+	3300 1910 2950 1910
+Wire Wire Line
+	3610 1830 3610 1910
+Connection ~ 3610 1910
+Wire Wire Line
+	3610 1910 3300 1910
+Wire Wire Line
+	3960 1830 3960 1910
+Connection ~ 3960 1910
+Wire Wire Line
+	3960 1910 3610 1910
+Wire Wire Line
+	4290 1830 4290 1910
+Connection ~ 4290 1910
+Wire Wire Line
+	4290 1910 3960 1910
+Wire Wire Line
+	4640 1830 4640 1910
+Wire Wire Line
+	4640 1910 4290 1910
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104D309
+P 4670 7400
+F 0 "J?" V 4824 7312 50  0000 R CNN
+F 1 "-" V 4733 7312 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 4670 7400 50  0001 C CNN
+F 3 "~" H 4670 7400 50  0001 C CNN
+	1    4670 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104D30F
+P 4320 7400
+F 0 "J?" V 4474 7312 50  0000 R CNN
+F 1 "-" V 4383 7312 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 4320 7400 50  0001 C CNN
+F 3 "~" H 4320 7400 50  0001 C CNN
+	1    4320 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104D315
+P 4010 7400
+F 0 "J?" V 4164 7312 50  0000 R CNN
+F 1 "-" V 4073 7312 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 4010 7400 50  0001 C CNN
+F 3 "~" H 4010 7400 50  0001 C CNN
+	1    4010 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104D31B
+P 3660 7400
+F 0 "J?" V 3814 7312 50  0000 R CNN
+F 1 "-" V 3723 7312 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 3660 7400 50  0001 C CNN
+F 3 "~" H 3660 7400 50  0001 C CNN
+	1    3660 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104D321
+P 3330 7400
+F 0 "J?" V 3484 7312 50  0000 R CNN
+F 1 "-" V 3393 7312 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 3330 7400 50  0001 C CNN
+F 3 "~" H 3330 7400 50  0001 C CNN
+	1    3330 7400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4670 7120 4670 7200
+Wire Wire Line
+	4320 7200 4320 7120
+Connection ~ 4320 7120
+Wire Wire Line
+	4320 7120 4670 7120
+Wire Wire Line
+	4010 7200 4010 7120
+Connection ~ 4010 7120
+Wire Wire Line
+	4010 7120 4320 7120
+Wire Wire Line
+	3660 7200 3660 7120
+Connection ~ 3660 7120
+Wire Wire Line
+	3660 7120 4010 7120
+Wire Wire Line
+	3330 7200 3330 7120
+Connection ~ 3330 7120
+Wire Wire Line
+	3330 7120 3660 7120
+Wire Wire Line
+	2980 7200 2980 7120
+Wire Wire Line
+	2980 7120 3330 7120
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104D327
+P 2980 7400
+F 0 "J?" V 3134 7312 50  0000 R CNN
+F 1 "-" V 3043 7312 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 2980 7400 50  0001 C CNN
+F 3 "~" H 2980 7400 50  0001 C CNN
+	1    2980 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6104E476
+P 4570 4250
+F 0 "J?" V 4724 4162 50  0000 R CNN
+F 1 "COM" V 4633 4162 50  0000 R CNN
+F 2 "Connector:Banana_Jack_1Pin" H 4570 4250 50  0001 C CNN
+F 3 "~" H 4570 4250 50  0001 C CNN
+	1    4570 4250
+	0    1    1    0   
+$EndComp
+Text Label 4440 4500 2    50   ~ 0
+PASS1
+Text Label 5330 4510 0    50   ~ 0
+PASS1
+Wire Wire Line
+	5200 4460 5200 4510
+Wire Wire Line
+	5200 4510 5330 4510
+Wire Wire Line
+	4570 4500 4570 4450
+Wire Wire Line
+	4570 4500 4440 4500
+NoConn ~ 4570 3670
+Text Label 5340 3710 0    50   ~ 0
+PASS1
+Wire Wire Line
+	5210 3660 5210 3710
+Wire Wire Line
+	5210 3710 5340 3710
+Wire Wire Line
+	2860 3890 2710 3890
+Text Label 2710 3890 2    50   ~ 0
+IN1
+$Comp
+L Device:R R?
+U 1 1 61057918
+P 4740 3180
+F 0 "R?" H 4810 3226 50  0000 L CNN
+F 1 "10K" H 4810 3135 50  0000 L CNN
+F 2 "" V 4670 3180 50  0001 C CNN
+F 3 "~" H 4740 3180 50  0001 C CNN
+	1    4740 3180
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 610581A3
+P 5040 3180
+F 0 "C?" H 5155 3226 50  0000 L CNN
+F 1 "1uF" H 5155 3135 50  0000 L CNN
+F 2 "" H 5078 3030 50  0001 C CNN
+F 3 "~" H 5040 3180 50  0001 C CNN
+	1    5040 3180
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3260 3990 3410 3990
+Text Label 3410 3990 0    50   ~ 0
+PASS1_NO
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 61061198
+P 3060 3890
+F 0 "SW?" H 3060 4175 50  0000 C CNN
+F 1 "SW_SPDT" H 3060 4084 50  0000 C CNN
+F 2 "" H 3060 3890 50  0001 C CNN
+F 3 "~" H 3060 3890 50  0001 C CNN
+	1    3060 3890
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3260 3790 3410 3790
+Text Label 3410 3790 0    50   ~ 0
+PASS1_NC
+$EndSCHEMATC
