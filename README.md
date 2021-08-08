@@ -16,4 +16,4 @@ The PCB is an interface using banana plugs whit of the shelf mono- and bi-stable
 ~~~
 
 ## Pictures
-![Top_view](https://github.com/SensaGroup/SwitchBox/Documents/Pictures/profile.jpg)
+![Top_view](https://github.com/SensaGroup/SwitchBox/blob/main/Documents/Pictures/profile.jpg)
