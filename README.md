@@ -13,7 +13,7 @@ The PCB is an interface using banana plugs whit of the shelf mono- and bi-stable
 - VCC and GND pass trough. 
 
 ## Software
-~~~
+None required, if nessecary signals may be brought from the fortis PLC. 
 
 ## Pictures
-![Top_view](https://github.com/SensaGroup/SwitchBox/Documents/Pictures/profile.jpg)
+![Top_view](https://github.com/SensaGroup/SwitchBox/blob/main/Documents/Pictures/profile.jpg)
