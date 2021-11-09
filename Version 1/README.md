@@ -16,4 +16,4 @@ The PCB is an interface using banana plugs whit of the shelf mono- and bi-stable
 None required, if nessecary signals may be brought from the fortis PLC. 
 
 ## Pictures
-![Top_view](https://github.com/SensaGroup/SwitchBox/blob/main/Documents/Pictures/front.jpg)
+![Top_view](https://github.com/SensaGroup/SwitchBox/blob/main/Version%201/Documents/Pictures/profile.jpg)
